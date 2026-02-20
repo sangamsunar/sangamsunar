@@ -1,0 +1,2 @@
+:HL["/sangamsunar/_next/static/chunks/a65cf3ac9ee75579.css","style"]
+0:{"buildId":"dPpPU0HpJj8BCmDtcyC8f","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"/_not-found","paramType":null,"paramKey":"/_not-found","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
