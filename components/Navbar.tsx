@@ -1,4 +1,5 @@
 "use client";
+
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -7,6 +8,7 @@ import { useState } from "react";
 import instagram from "@/public/images/instagram.png";
 import linkedin from "@/public/images/linkedin.png";
 import github from "@/public/images/github.png";
+import logo from "@/public/images/logo.png";
 const MotionImage = motion(Image);
 
 // const [active, setActive] = useState("home");
@@ -15,8 +17,8 @@ export const Navbar = () => {
     <nav className=" sticky top-0 z-50  flex  text-center space-x-1 justify-between items-center px-[120px]  backdrop-blur-md">
       <div className="w-[150px]">
         <Link href="/">
-          <MotionImage
-            src="/images/logo.png"
+          {/* <MotionImage
+            src={logo}
             width={60}
             height={10}
             alt="logo"
@@ -29,8 +31,11 @@ export const Navbar = () => {
               stiffness: 300,
               damping: 15,
             }}
-          />
+          /> */}
+          <Image src={logo} width={60} height={10} alt="logo" />
         </Link>
+
+        <Image src={logo} width={60} height={10} alt="logo" />
       </div>
       <div className="w-auto  flex justify-evenly border-4 rounded-full border-amber-50 hover:scale-105 transition duration-150 ease-in">
         <Link
