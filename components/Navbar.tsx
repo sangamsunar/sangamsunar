@@ -34,8 +34,6 @@ export const Navbar = () => {
           /> */}
           <Image src={logo} width={60} height={10} alt="logo" />
         </Link>
-
-        <Image src={logo} width={60} height={10} alt="logo" />
       </div>
       <div className="w-auto  flex justify-evenly border-4 rounded-full border-amber-50 hover:scale-105 transition duration-150 ease-in">
         <Link
