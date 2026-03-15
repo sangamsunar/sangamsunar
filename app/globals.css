@@ -21,6 +21,11 @@
   }
 }
 
+html {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100%;
+}
 html,
 body {
   background-color: var(--background);
@@ -28,9 +33,21 @@ body {
   color: var(--primary);
   margin: 0;
   padding: 0;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
 }
 
 .vertical-text {
   writing-mode: vertical-rl;
   text-orientation: upright;
+}
+
+/* remove scrollbar */
+* {
+  scrollbar-width: none; /*Firefox*/
+  -ms-overflow-style: none; /*IE/Edge*/
+}
+
+*::-webkit-scrollbar {
+  display: none; /*chrome/ safari */
 }

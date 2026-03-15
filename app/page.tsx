@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <>
       <main className="flex-1 flex flex-col text-red-50">
-        <section className="flex justify-between w-full min-h-screen bg-black">
+        <section className="flex justify-between w-full min-h-screen bg-black snap-start">
           <div className="flex flex-1 justify-center items-center">
             <div className="flex items-baseline"></div>
             <Image src={logo} width={500} height={10} alt="heigne" />
@@ -47,8 +47,8 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="w-full min-h-screen bg-black px-[120px] pt-[120px] flex-1 justify-center items-center text-center">
-          <p className="text-8xl text-gray-300">WORK</p>
+        <section className="w-full min-h-screen bg-black px-[120px] pt-[120px] flex-1 justify-center items-center text-center snap-start">
+          <p className="text-8xl text-gray-300 pb-5">WORK</p>
           <div className="flex justify-center items-center">
             <motion.div
               {...animationPreset}
@@ -64,18 +64,12 @@ export default function Home() {
             </motion.div>
             <motion.div
               {...animationPreset}
-              className="z-9 rotate-12 h-[600px] w-[400px] opacity-60 bg-fuchsia-300 hover:opacity-100 transition-opacity ease-in-out"
+              className="z-10 rotate-12 h-[600px] w-[400px] opacity-60 bg-fuchsia-300 hover:opacity-100 transition-opacity ease-in-out"
             >
               3D Project
             </motion.div>
           </div>
         </section>
-        {/* section 2 */}
-        {/* <section className="grid grid-cols-3 max-w-max max-h-max">
-          <div className="bg-amber-100 h-[300px]">
-            <h1>WEB DEVELOPMENT</h1>
-          </div>
-        </section> */}
       </main>
     </>
   );
