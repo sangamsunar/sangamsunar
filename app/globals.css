@@ -21,11 +21,6 @@
   }
 }
 
-html {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  height: 100%;
-}
 html,
 body {
   background-color: var(--background);
@@ -33,8 +28,12 @@ body {
   color: var(--primary);
   margin: 0;
   padding: 0;
-  scroll-snap-type: y mandatory;
+}
+html {
+  scroll-snap-type: y proximity;
   scroll-behavior: smooth;
+  overflow-y: scroll;
+  height: 100%;
 }
 
 .vertical-text {

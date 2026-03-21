@@ -57,7 +57,7 @@ export const Navbar = () => {
         <a href="https://www.instagram.com/kiryuuxu/">
           <Image
             src={instagram}
-            width={36}
+            width={32}
             alt="instagram"
             className="hover:scale-105 transition duration-150 ease-in"
           />
@@ -65,7 +65,7 @@ export const Navbar = () => {
         <a href="">
           <Image
             src={linkedin}
-            width={36}
+            width={32}
             alt="linkedin"
             className="hover:scale-105 transition duration-150 ease-in"
           />
@@ -73,7 +73,7 @@ export const Navbar = () => {
         <a href="https://github.com/sangamsunar/">
           <Image
             src={github}
-            width={36}
+            width={32}
             alt="github"
             className="hover:scale-105 transition duration-150 ease-in"
           />
